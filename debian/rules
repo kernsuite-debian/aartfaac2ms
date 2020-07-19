@@ -1,5 +1,9 @@
 #!/usr/bin/make -f
 
+override_dh_auto_configure: 
+	     dh_auto_configure -- \
+			 -DBoost_PYTHON36_LIBRARY=/usr/lib/x86_64-linux-gnu/libboost_python3.so
+
 %:
-	dh $@
+	dh $@ --buildsystem=cmake --parallel
 
