@@ -1,0 +1,29 @@
+Source: aartfaac2ms
+Section: science
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>= 8.0.0),
+ cmake,
+ aoflagger,
+ libboost-python-dev,
+ build-essential,
+ aoflagger-dev,
+ zlib1g-dev,
+ libpng-dev,
+ libxml2-dev,
+ pkg-config,
+ libgtkmm-3.0-dev,
+ libcfitsio-dev,
+ libfftw3-dev,
+ libboost-filesystem-dev,
+ libboost-date-time-dev,
+ casacore-dev,
+ python3-numpy,
+ libboost-numpy-dev
+Standards-Version: 4.4.1
+Homepage: https://github.com/aroffringa/aartfaac2ms/tree
+
+Package: aartfaac2ms
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Converts Aartfaac correlator files to measurement sets
