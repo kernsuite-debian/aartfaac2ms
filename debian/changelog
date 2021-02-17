@@ -1,3 +1,11 @@
+aartfaac2ms (1.0-1kern1) focal; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream version 1.0
+  * Build for focal
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 17 Feb 2021 12:04:53 +0000
+
 aartfaac2ms (0.0-1) bionic; urgency=medium
 
   * Initial release 

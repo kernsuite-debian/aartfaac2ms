@@ -2,7 +2,7 @@ Source: aartfaac2ms
 Section: science
 Priority: optional
 Maintainer: KERN packaging <packaging@kernsuite.info>
-Build-Depends: debhelper (>= 8.0.0),
+Build-Depends: debhelper (>=11),
  cmake,
  aoflagger,
  libboost-python-dev,
@@ -20,7 +20,7 @@ Build-Depends: debhelper (>= 8.0.0),
  casacore-dev,
  python3-numpy,
  libboost-numpy-dev
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 Homepage: https://github.com/aroffringa/aartfaac2ms/tree
 
 Package: aartfaac2ms
